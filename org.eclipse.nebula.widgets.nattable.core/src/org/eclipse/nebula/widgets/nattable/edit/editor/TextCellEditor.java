@@ -40,7 +40,7 @@ public class TextCellEditor extends AbstractCellEditor {
 	/**
 	 * The Text control which is the editor wrapped by this TextCellEditor.
 	 */
-	private Text text = null;
+	protected Text text = null;
 	
 	/**
 	 * Flag to configure if the wrapped text editor control is editable or not.
